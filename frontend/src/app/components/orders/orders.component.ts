@@ -108,7 +108,7 @@ export class OrdersComponent {
   }
 
   deleteById(model: OrderModel){    
-    this.swal.callSwal("Siparişi Sil?",`${model.customer.name} - ${model.number} numaralı siarpişi silmek istiyor musunuz?`,()=> {
+    this.swal.callSwal("Siparişi Sil?",`${model.customer.name} - ${model.number} numaralı siparişi silmek istiyor musunuz?`,()=> {
       this.http.post<string>("Orders/DeleteById",{id: model.id},(res)=> {
         this.getAll();
         this.swal.callToast(res,"info");
@@ -128,5 +128,10 @@ export class OrdersComponent {
         this.getAll();
       });
     }
+  }
+  setStatusClass(statusValue: number){
+    if(statusValue === 1) return "text-danger";
+    else if(statusValue === 2) return "text-primary";
+    else return "text-success";
   }
 }

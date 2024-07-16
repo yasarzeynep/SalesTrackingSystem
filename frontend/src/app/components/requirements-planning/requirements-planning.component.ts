@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { RequirementsPlanningModel } from '../../models/requirements-planning.model';
 
 @Component({
   selector: 'app-requirements-planning',
