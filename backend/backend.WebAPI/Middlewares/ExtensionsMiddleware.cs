@@ -17,8 +17,8 @@ namespace backend.WebAPI.Middlewares
                     {
                         UserName = "admin",
                         Email = "admin@admin.com",
-                        FirstName = "Taner",
-                        LastName = "Saydam",
+                        FirstName = "Ali",
+                        LastName = "Yilmaz",
                         EmailConfirmed = true
                     };
 
