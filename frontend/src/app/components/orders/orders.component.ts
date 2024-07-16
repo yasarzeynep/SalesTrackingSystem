@@ -15,6 +15,7 @@ import { RouterLink } from '@angular/router';
   selector: 'app-orders',
   standalone: true,
   imports: [SharedModule, OrderPipe, RouterLink],
+  providers: [DatePipe],
   templateUrl: './orders.component.html',
   styleUrl: './orders.component.css'
 })
