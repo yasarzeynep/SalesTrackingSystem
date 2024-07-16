@@ -14,8 +14,8 @@ Satış Takip Sistemi, satışları yönetmek ve takip etmek için geliştirilmi
 ### Kullanılan Teknolojiler ve Yapılar
 - Backend: C#, .NET, MSSQL, Clean Architecture, CQRS, Result Pattern, Repository Pattern
 - Frontend: TypeScript, Angular, AdminLTE
-- 
+  
 ### Lisans
-Bu proje MIT Lisansı ile lisanslanmıştır. Detaylı bilgi için LICENSE dosyasına bakabilirsiniz.
+MIT Lisansı altında dağıtılmaktadır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
 
 
