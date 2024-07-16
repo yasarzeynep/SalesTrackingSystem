@@ -4,6 +4,7 @@ import { SharedModule } from '../../modules/shared.module';
 import { HttpService } from '../../services/http.service';
 import { Router } from '@angular/router';
 import { LoginResponseModel } from '../../models/login.response.model';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -14,10 +15,13 @@ import { LoginResponseModel } from '../../models/login.response.model';
 })
 export class LoginComponent {
   model:LoginModel=new LoginModel();
+  //authService: any;
 
   constructor(
     private http: HttpService,
-    private router: Router
+    private router: Router,
+    private authService: AuthService 
+    
   ){}
 
   signIn(){
@@ -26,4 +30,6 @@ export class LoginComponent {
       this.router.navigateByUrl("/");
     });
   }
+
+ 
 }
