@@ -158,3 +158,4 @@ C:\Users\HERO\source\repos\SalesTrackingSystem\backend\backend.WebAPI\obj\Debug\
 C:\Users\HERO\source\repos\SalesTrackingSystem\backend\backend.WebAPI\obj\Debug\net8.0\backend.WebAPI.pdb
 C:\Users\HERO\source\repos\SalesTrackingSystem\backend\backend.WebAPI\obj\Debug\net8.0\backend.WebAPI.genruntimeconfig.cache
 C:\Users\HERO\source\repos\SalesTrackingSystem\backend\backend.WebAPI\obj\Debug\net8.0\ref\backend.WebAPI.dll
+C:\Users\HERO\source\repos\SalesTrackingSystem\backend\backend.WebAPI\obj\Debug\net8.0\backend.WebAPI.MvcApplicationPartsAssemblyInfo.cs
