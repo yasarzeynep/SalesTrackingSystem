@@ -14,7 +14,7 @@ Satış Takip Sistemi, satışları yönetmek ve takip etmek için geliştirilmi
 ### Kullanılan Teknolojiler ve Yapılar
 - Backend: C#, .NET, MSSQL, Clean Architecture, CQRS
 - Frontend: TypeScript, Angular, AdminLTE
-- 
+  
 ### Proje Görselleri 
 ![Ekran görüntüsü 2024-07-16 144555](https://github.com/user-attachments/assets/93c2da75-d6df-4271-b43f-5c2caefa9643)
 ![Ekran görüntüsü 2024-07-16 135907](https://github.com/user-attachments/assets/d9317259-b2ac-4245-b872-7fc4d1ea701f)
