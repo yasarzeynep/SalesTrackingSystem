@@ -12,7 +12,7 @@ Satış Takip Sistemi, satışları yönetmek ve takip etmek için geliştirilmi
 - **Gelişmiş Arayüz:** AdminLTE teması ile şık ve kullanıcı dostu arayüz.
 
 ### Kullanılan Teknolojiler ve Yapılar
-- Backend: C#, .NET, MSSQL, Clean Architecture, CQRS, Result Pattern, Repository Pattern
+- Backend: C#, .NET, MSSQL, Clean Architecture, CQRS
 - Frontend: TypeScript, Angular, AdminLTE
 - 
 ### Proje Görselleri 
